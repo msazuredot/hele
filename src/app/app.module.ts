@@ -7,9 +7,9 @@ import { CitiesComponent } from './cities/cities.component';
 import { CityDetailsComponent } from './cities/city-details/city-details.component';
 import { CityComponent } from './cities/city/city.component';
 import { ActivitiesComponent } from './activities/activities.component';
-import { AcitvityListComponent } from './activities/acitvity-list/acitvity-list.component';
-import { AcitvityListEditComponent } from './activities/acitvity-list-edit/acitvity-list-edit.component';
-import { AcitvityComponent } from './activities/acitvity/acitvity.component';
+import { activityListComponent } from './activities/activity-list/activity-list.component';
+import { activityListEditComponent } from './activities/activity-list-edit/activity-list-edit.component';
+import { activityComponent } from './activities/activity/activity.component';
 import { CityListComponent } from './cities/city-list/city-list.component';
 
 @NgModule({
@@ -20,9 +20,9 @@ import { CityListComponent } from './cities/city-list/city-list.component';
     CityDetailsComponent,
     CityComponent,
     ActivitiesComponent,
-    AcitvityListComponent,
-    AcitvityListEditComponent,
-    AcitvityComponent,
+    activityListComponent,
+    activityListEditComponent,
+    activityComponent,
     CityListComponent,
   ],
   imports: [
