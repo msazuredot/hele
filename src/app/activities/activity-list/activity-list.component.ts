@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./activity-list.component.scss']
 })
 export class ActivityListComponent implements OnInit {
-
+  activities = [];
   constructor() { }
 
   ngOnInit() {
