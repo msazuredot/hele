@@ -1,5 +1,7 @@
 <div class="col-xs-12" style="background: rgb(250, 182, 66)">
   <ul class="list-group">
-    <a style="cursor: pointer;" class="list-groupp-item"></a>
+    <a style="cursor: pointer;" class="list-group-item" *ngFor="let activity of activities">
+      ${{activity.cost}} - {{activity.name}}
+    </a>
   </ul>
 </div>
