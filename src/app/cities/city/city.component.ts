@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter} from '@angular/core';
+import { City } from '../city.model';
 
 @Component({
   selector: 'he-city',
@@ -7,7 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CityComponent implements OnInit {
 
+  @Input() city: City;
+  @Output() citySelected = new EventEmitter<void>();
   constructor() { }
+
+  onSelected() {
+    this.citySelected.emit();
+  }
 
   ngOnInit() {
   }

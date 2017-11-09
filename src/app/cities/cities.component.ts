@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { City } from './city.model';
 
 @Component({
   selector: 'he-cities',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./cities.component.scss']
 })
 export class CitiesComponent implements OnInit {
+
+  selectedCity: City;
 
   constructor() { }
 

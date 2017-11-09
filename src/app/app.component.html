@@ -1,5 +1,4 @@
-<he-header></he-header>
-
+<he-header (featureSelected)="onNavigate($event)"></he-header>
 <div class="container">
   <div class="row">
     <h1 class="col-sm-12">
@@ -7,7 +6,7 @@
     </h1>
   </div>
   <div class="row">
-    <he-cities></he-cities>
-    <he-activities></he-activities>
+    <he-cities *ngIf="loadedFeature === 'cities'"></he-cities>
+    <he-activities *ngIf="loadedFeature !== 'cities'"></he-activities>
   </div>
 </div>
