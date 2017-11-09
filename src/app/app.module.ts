@@ -8,7 +8,7 @@ import { CityDetailsComponent } from './cities/city-details/city-details.compone
 import { CityComponent } from './cities/city/city.component';
 import { ActivitiesComponent } from './activities/activities.component';
 import { ActivityListComponent } from './activities/activity-list/activity-list.component';
-import { activityListEditComponent } from './activities/activity-list-edit/activity-list-edit.component';
+import { ActivityListEditComponent } from './activities/activity-list-edit/activity-list-edit.component';
 import { ActivityComponent } from './activities/activity/activity.component';
 import { CityListComponent } from './cities/city-list/city-list.component';
 
@@ -21,7 +21,7 @@ import { CityListComponent } from './cities/city-list/city-list.component';
     CityComponent,
     ActivitiesComponent,
     ActivityListComponent,
-    activityListEditComponent,
+    ActivityListEditComponent,
     ActivityComponent,
     CityListComponent,
   ],
